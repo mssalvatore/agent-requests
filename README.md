@@ -27,6 +27,6 @@ the user agents is to modify the `AGENTS` tuple in the source code.
 
 ## Building an executable for distribution
 
-`poetry run pyinstaller agent_requests/agent_requests.py`
+`poetry run pyinstaller --onefile agent_requests/agent_requests.py`
 
 The executable will be written to `dist/agent_requests/agent_requests`.
